@@ -20,4 +20,4 @@ try:
 
     print("Размер скидки составит:", discount)
 except ValueError:
-   print("Ошибка")
+    print("Ошибка")
