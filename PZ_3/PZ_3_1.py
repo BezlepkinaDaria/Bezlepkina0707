@@ -1,9 +1,9 @@
 try:
     a = int(input("Введите целое число a: "))
     if a % 2 == 0:  # проверка условия
-        print("Число a является четным")
+        print("True")
     else:
-        print("Число a не является четным")
+        print("False")
 
 except ValueError:
     print("ошибка")
