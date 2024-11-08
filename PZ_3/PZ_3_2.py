@@ -15,7 +15,7 @@ try:
         discount = purchase * 0.03 #скидка 3%
     elif purchase < 1500:
         discount = purchase * 0.04 #скидка 4%
-    elif purchase > 1500:
+    elif purchase < 2000:
         discount = purchase * 0.05 #скидка 5%
 
     print("Размер скидки составит:", discount)
